@@ -1,0 +1,99 @@
+/* ---------------------------------------Todo Input Form Style----------------------------- */
+.addItem
+{
+    /* margin: 50px 10px; */
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+.addItem .inp 
+{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.838);
+    width: 70%;
+    height: 100px;
+    padding-left: 50px;
+    font-weight: 800;
+}
+.addItem .sub 
+{
+    border: none;
+    background-color: rgba(8, 8, 8, 0.952);
+    color: white;
+    width: 25%;
+    height: 100px;
+    font-weight: bold;
+
+}
+
+.addItem .sub:hover
+{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.838);
+    color: black;
+    height: 100px;
+    font-weight: bold;
+     transition: all 1s;
+}
+
+/* --------------------------------------------Todo Style--------------------------------- */
+.todoItem
+{
+    background-color: rgba(255, 255, 255, 0.777);
+    height: auto;
+    width: 61.7%;
+    margin-left: 11px;
+    padding: 20px 20px;
+
+}
+.todoItem:hover{
+    background-color: rgba(255, 255, 255, 0.423);
+    transition:  .5s;
+}
+.todoItem .edit
+{
+    color: rgb(11, 164, 11);
+    font-size: large;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+.todoItem  .delete{
+   
+   color: red;
+    visibility: hidden;
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+.todoItem:hover .delete
+{
+    visibility: visible;
+}
+.todoItem h3 
+{
+    font-weight: 900;
+}
+.Save .inp2
+{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.838);
+    width: 80%;
+    height: 80px;
+    padding-left: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 1px;
+    
+}
+.Save .sub2 
+{
+    border: none;
+    background-color: rgba(8, 8, 8, 0.952);
+    color: white;
+    width: 15%;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 500;
+}
